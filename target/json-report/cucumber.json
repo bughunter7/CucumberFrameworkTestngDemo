@@ -1,0 +1,838 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4334471400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "parallel.LoginSteps.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 158577700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on login link",
+            "match": {
+              "location": "parallel.LoginSteps.clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:27:23.891Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18958400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8726534000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Contactus to submit",
+        "description": "",
+        "id": "to-test-contactus;contactus-to-submit;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1994400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1708456800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1889466600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a popup appears with title Log in",
+            "match": {
+              "location": "parallel.LoginSteps.a_popup_appears_with_title_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691151000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username \"seleniumtest777@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumtest777@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_username_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583440000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters password \"Selenium1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium1234",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 838757700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "parallel.LoginSteps.user_click_on_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9406135400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on contact link",
+            "match": {
+              "location": "parallel.ContactusSteps.i_click_on_contact_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263512400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a popup appears with title \"New message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New message",
+                  "offset": 28
+                }
+              ],
+              "location": "parallel.ContactusSteps.a_popup_appears_with_title_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5566061500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter details which includes test@gmail.com and shubham and test message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "shubham",
+                  "offset": 50
+                },
+                {
+                  "val": "test message",
+                  "offset": 62
+                }
+              ],
+              "location": "parallel.ContactusSteps.i_enter_details_which_includes_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 155583600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click send message button",
+            "match": {
+              "location": "parallel.ContactusSteps.i_click_send_message_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7233238900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "parallel.LoginSteps.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 211438100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on login link",
+            "match": {
+              "location": "parallel.LoginSteps.clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:27:23.888Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10294342200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Contactus to submit",
+        "description": "",
+        "id": "to-test-contactus;contactus-to-submit;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1821118100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1013291900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a popup appears with title Log in",
+            "match": {
+              "location": "parallel.LoginSteps.a_popup_appears_with_title_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 657242100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username \"seleniumtest777@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumtest777@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_username_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275267200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters password \"Selenium1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium1234",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139626000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "parallel.LoginSteps.user_click_on_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6551509600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on contact link",
+            "match": {
+              "location": "parallel.ContactusSteps.i_click_on_contact_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337765400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "a popup appears with title \"New message\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New message",
+                  "offset": 28
+                }
+              ],
+              "location": "parallel.ContactusSteps.a_popup_appears_with_title_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5617809900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter details which includes test2@gmail.com and shubham t and test message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "shubham t",
+                  "offset": 51
+                },
+                {
+                  "val": "test message",
+                  "offset": 65
+                }
+              ],
+              "location": "parallel.ContactusSteps.i_enter_details_which_includes_and_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169546300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click send message button",
+            "match": {
+              "location": "parallel.ContactusSteps.i_click_send_message_button()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2021-03-02T13:27:23.894Z",
+        "line": 25,
+        "name": "Contactus to submit withoutdata",
+        "description": "",
+        "id": "to-test-contactus;contactus-to-submit-withoutdata",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": []
+      }
+    ],
+    "name": "To Test Contactus",
+    "description": "",
+    "id": "to-test-contactus",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/Contactus.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4468633100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "parallel.LoginSteps.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133639100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on login link",
+            "match": {
+              "location": "parallel.LoginSteps.clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:27:23.884Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5984700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8952927800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Valid User Login into the Application",
+        "description": "",
+        "id": "to-test-login-of-the-application;valid-user-login-into-the-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2991900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 4202774800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1570799200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "a popup appears with title Log in",
+            "match": {
+              "location": "parallel.LoginSteps.a_popup_appears_with_title_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 656245300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters username \"seleniumtest777@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumtest777@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_username_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 544544300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters password \"Selenium1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium1234",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482708200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "parallel.LoginSteps.user_click_on_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "header appears with welcome text followed by \"seleniumtest777@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seleniumtest777@gmail.com",
+                  "offset": 46
+                }
+              ],
+              "location": "parallel.LoginSteps.header_appears_with_welcome_text_followed_by_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8148753100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on landing page",
+            "match": {
+              "location": "parallel.LoginSteps.user_is_on_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 784901700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicks on login link",
+            "match": {
+              "location": "parallel.LoginSteps.clicks_on_login_link()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-02T13:27:23.743Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4985000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8414371200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Invalid User Login into the Application",
+        "description": "",
+        "id": "to-test-login-of-the-application;invalid-user-login-into-the-application",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2998129300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "parallel.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 825792900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "a popup appears with title Log in",
+            "match": {
+              "location": "parallel.LoginSteps.a_popup_appears_with_title_log_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419877800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters username \"buntysharma@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "buntysharma@gmail.com",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_username_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 436835100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters password \"Selenium1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Selenium1234",
+                  "offset": 22
+                }
+              ],
+              "location": "parallel.LoginSteps.user_enters_password_something(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 434838700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user click on loginbutton",
+            "match": {
+              "location": "parallel.LoginSteps.user_click_on_loginbutton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3122720200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "a popup appers with text \"User does not exist.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User does not exist.",
+                  "offset": 26
+                }
+              ],
+              "location": "parallel.NegativeLogin.a_popup_appers_with_text_something(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Test Login of the application",
+    "description": "",
+    "id": "to-test-login-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/parallel/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-02T13:27:58.387Z",
+        "line": 2,
+        "name": "Could not execute Cucumber",
+        "description": "",
+        "id": "failure;could-not-execute-cucumber",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 0,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Cucumber could not execute",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_could_not_execute()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 0,
+              "error_message": "java.lang.ClassCastException: class io.cucumber.messages.Messages$GherkinDocument$Feature cannot be cast to class io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$Examples (io.cucumber.messages.Messages$GherkinDocument$Feature and io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$Examples are in unnamed module of loader \u0027app\u0027)",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "Cucumber will report this error:",
+            "match": {
+              "arguments": [],
+              "location": "io.cucumber.core.Failure.cucumber_reports_this_error()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test run failed",
+    "description": "There were errors during the execution",
+    "id": "failure",
+    "keyword": "Feature",
+    "uri": "classpath:io/cucumber/core/failure.feature",
+    "tags": []
+  }
+]

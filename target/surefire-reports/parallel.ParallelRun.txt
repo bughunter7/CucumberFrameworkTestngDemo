@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: parallel.ParallelRun
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 53.821 s <<< FAILURE! - in parallel.ParallelRun
+runScenario(parallel.ParallelRun)  Time elapsed: 0.774 s  <<< FAILURE!
+java.lang.ClassCastException: class io.cucumber.messages.Messages$GherkinDocument$Feature cannot be cast to class io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$Examples (io.cucumber.messages.Messages$GherkinDocument$Feature and io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$Examples are in unnamed module of loader 'app')
+

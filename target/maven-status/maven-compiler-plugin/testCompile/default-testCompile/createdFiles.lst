@@ -1,0 +1,9 @@
+parallel\ContactusSteps.class
+parallel\CheckoutSteps.class
+parallel\LoginSteps.class
+parallel\NegativeLogin.class
+parallel\CartSteps.class
+parallel\CategorySteps.class
+parallel\Contactusnegative.class
+parallel\ParallelRun.class
+parallel\ApplicationHooks.class

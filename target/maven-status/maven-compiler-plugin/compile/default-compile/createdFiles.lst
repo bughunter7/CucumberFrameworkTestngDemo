@@ -1,0 +1,10 @@
+com\pages\HomePage.class
+com\qa\factory\DriverFactory.class
+com\qa\util\ConfigReader.class
+com\pages\CategoryPage.class
+com\pages\CartPage.class
+com\pages\ProductdetailsPage.class
+com\pages\ContactusPage.class
+com\pages\LoginPage.class
+com\qa\util\Webwait.class
+com\pages\CheckoutPage.class
